@@ -86,6 +86,7 @@ graph LR;
 
 ```
 These are four file statuses
+
 What happens:
 1. Git doesn't see changes in untracked files
 2. Git adds tracked status to a file which was added to the staging area or was commited
