@@ -87,7 +87,22 @@ graph LR;
     %% These are four file statuses;
     %% Git doesn't see changes in untracked files;
     %% Git adds tracked status to a file which was added to the staging area or was commited;
+    %% If a file is in the staging area and you change this file, the previous
+    %% version of the file will be still in the staging area, but the file will 
+    %% be modified and if you want to add a new version of the file to the
+    %% staging area you need to print "git add" again
+
 ```
+### Messages for commits
+The message must follow certain rules
+Message length should be from 30 to 72 symbols
+There are some rules a message must follow:
+1. Corporative (example: LGS(logistics)-239: add a list with new numbers/добавить лист с новыми числами)
+2. Conventional Commits (example: feat: add a counter of the sum of orders/or fix instead of feat) [READMORE](https://www.conventionalcommits.org/ru/v1.0.0-beta.4/#спецификация "Conventional documentation")
+3. GitHub-style (example: fix #334, add a traffic of temperature/добавить трафик температуры)
+For messages in English you need to use imperative messages like add, use, fix
+For messages in Russian you need to use infinitives like добавить, исправить and so on
+These recommendations have developed historically, and many projects follow them
 ### README File
 Read a little bit about README file to know how to write about your projects to other people
 [README](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/ "Yandex Practicum documentation") or just use [README-2](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c "GitHub documentation")
