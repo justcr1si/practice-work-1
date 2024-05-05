@@ -88,8 +88,9 @@ graph LR;
 These are four file statuses;
 Git doesn't see changes in untracked files;
 Git adds tracked status to a file which was added to the staging area or was commited;
+
 If a file is in the staging area and you change this file, the previous
-version of the file will be still in the staging area, but the file will 
+version of the file will be still in the staging area, but the file will
 be modified and if you want to add a new version of the file to the
 staging area you need to print "git add" again
 ### Messages for commits
@@ -101,7 +102,9 @@ There are some rules a message must follow:
 3. GitHub-style (example: fix #334, add a traffic of temperature/добавить трафик температуры)
 ---
 For messages in English you need to use imperative messages like add, use, fix
-For messages in Russian you need to use infinitives like добавить, исправить and so on
+
+For messages in Russian you need to use infinitives like добавить, исправить and so on <br>
+
 These recommendations have developed historically, and many projects follow them
 ### README File
 Read a little bit about README file to know how to write about your projects to other people
