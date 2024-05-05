@@ -78,6 +78,16 @@ Date:   Thu May 2 12:56:40 2024 +0300
 
     README file
 ```
+### Files status
+```mermaid
+graph LR;
+    untracked -- "git add" --> staged/tracked;
+    staged -- "git commit" --> tracked/comitted;
+    
+    %% These are four file statuses;
+    %% Git doesn't see changes in untracked files;
+    %% Git adds tracked status to a file which was added to the staging area or was commited;
+```
 ### README File
 Read a little bit about README file to know how to write about your projects to other people
 [README](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/ "Yandex Practicum documentation") or just use [README-2](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c "GitHub documentation")
