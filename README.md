@@ -41,6 +41,43 @@ After commits just push all the changes to the remote repository
 git push -u origin main
 ```
 Just make sure you print -u for the first time, you don't need to print it all the time. Next time write just "git push"
+---
+### Hash
+Hash is an identifier of a commit, fingerprint
+Hash of the last commit is located in HEAD, you can use the word "HEAD" to access the last commit like this:
+```bash
+commit 150df1f4b40ec73033dfe58f5e612893da372379 (HEAD -> main, origin/main)
+Author: Daniil Moskalenko <justcr1si@yandex.ru>
+Date:   Sun May 5 10:33:42 2024 +0300
+
+    Some changes in writing
+```
+You can see HEAD -> main (the name of a branch)
+### Log
+Log provides information about all commits you've made with information about hash, author, date and a comment. To have an access to look at the history of commits print this command in git bash
+```bash
+git log
+```
+The information is gonna be like this
+```bash
+commit 150df1f4b40ec73033dfe58f5e612893da372379 (HEAD -> main, origin/main)
+Author: Daniil Moskalenko <justcr1si@yandex.ru>
+Date:   Sun May 5 10:33:42 2024 +0300
+
+    Some changes in writing
+
+commit c87e7f4419c54b4c94d2a70cf0cf8aca989f26d9
+Author: Daniil Moskalenko <justcr1si@yandex.ru>
+Date:   Thu May 2 13:14:40 2024 +0300
+
+    New information in README file
+
+commit f8b5aa76be8b0e0c5f86a7038f0a26fbd4e95f7b
+Author: Daniil Moskalenko <justcr1si@yandex.ru>
+Date:   Thu May 2 12:56:40 2024 +0300
+
+    README file
+```
 ### README File
 Read a little bit about README file to know how to write about your projects to other people
 [README](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/ "Yandex Practicum documentation") or just use [README-2](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c "GitHub documentation")
