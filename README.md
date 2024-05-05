@@ -86,8 +86,9 @@ graph LR;
 
 ```
 These are four file statuses
-Git doesn't see changes in untracked files
-Git adds tracked status to a file which was added to the staging area or was commited
+What happens:
+1. Git doesn't see changes in untracked files
+2. Git adds tracked status to a file which was added to the staging area or was commited
 
 If a file is in the staging area and you change this file, the previous
 version of the file will be still in the staging area, but the file will
