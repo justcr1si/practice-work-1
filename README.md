@@ -1,11 +1,11 @@
 # WELCOME TO THE INTRODUCTION OF THE GIT
-To create a repository you gotta write this in git bash
+To create a repository you need to write this in git bash
 ```bash
 git init
 ```
 That allows you to create a new directory which is actually your git repository
 
-## Creating a new files
+## Creating new files
 To create a new file use:
 ```bash
 touch <nameofFile>.type
